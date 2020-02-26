@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Calcul from './components/Calcul'
+import Dragons from './components/Dragons'
 
 function App(props) {
   
 
   return (
     <div className="App">
-      <Calcul />
+      <Dragons />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 //contextualiser notre store dans notre app
 //qui est un module react pour contextualiser
 import {Provider} from 'react-redux'
@@ -11,7 +12,7 @@ import {Provider} from 'react-redux'
 import {createStore} from 'redux'
 
 //store 
-import reducer from './reducers/calculatrice'
+import reducer from './reducers/dragons_reducer'
 //creer le store que l'on passe a l'application
 //function qui vient de redux non lié a react
 const store = createStore(reducer)
